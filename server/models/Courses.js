@@ -16,7 +16,6 @@ const schema = new mongoose.Schema({
   },
   price: {
     type: Number,
-    required: true,
   },
   duration: {
     type: Number,
